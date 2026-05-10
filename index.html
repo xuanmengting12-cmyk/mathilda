@@ -422,7 +422,7 @@ body{background:#FAFAF9;font-family:'Noto Sans SC',sans-serif;min-height:100vh;o
 
 <!-- PAGE 1: LANDING -->
 <div class="page" id="page-landing">
-  <img class="hero-bg-img" src="photo/A-hero.jpg" alt="">
+  <img class="hero-bg-img" src="vibe coding/photo/A-hero.jpg" alt="">
   <nav class="nav">
     <div class="logo" onclick="goTo('landing')">
       <div class="logo-box"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="2" y="2" width="5" height="5" rx="1" fill="white"/><rect x="9" y="2" width="5" height="5" rx="1" fill="white" opacity="0.45"/><rect x="2" y="9" width="5" height="5" rx="1" fill="white" opacity="0.45"/><rect x="9" y="9" width="5" height="5" rx="1" fill="white"/></svg></div>
@@ -443,14 +443,14 @@ body{background:#FAFAF9;font-family:'Noto Sans SC',sans-serif;min-height:100vh;o
   </div>
   <!-- ABOUT SECTION (screen 2) -->
   <section class="about-section" id="about-section">
-    <img class="about-plant about-plant-left" src="photo/A-bg.png" alt="">
-    <img class="about-plant about-plant-right" src="photo/A-bg.png" alt="">
+    <img class="about-plant about-plant-left" src="vibe coding/photo/A-bg.png" alt="">
+    <img class="about-plant about-plant-right" src="vibe coding/photo/A-bg.png" alt="">
     <div class="about-inner">
 
       <!-- LEFT: photo + pills -->
       <div class="about-col-left">
         <div class="about-photo fu" style="transition-delay:60ms;border:none;">
-          <img src="photo/A-photo.jpg" alt="轩梦婷" style="position:absolute;top:0;left:0;width:135%;height:135%;object-fit:cover;object-position:center 42%;border-radius:16px;transform:translateX(-13%) translateY(-26%);">
+          <img src="vibe coding/photo/A-photo.jpg" alt="轩梦婷" style="position:absolute;top:0;left:0;width:135%;height:135%;object-fit:cover;object-position:center 42%;border-radius:16px;transform:translateX(-13%) translateY(-26%);">
         </div>
         <div class="about-pills">
           <div class="about-pill fu" style="transition-delay:120ms;border-left:2px solid #7E57C2">
@@ -654,7 +654,7 @@ body{background:#FAFAF9;font-family:'Noto Sans SC',sans-serif;min-height:100vh;o
       </div>
     </div>
   </nav>
-  <div class="case-cover"><div class="case-cover-bg" id="case-cover-bg"></div><img class="case-cover-floral" id="case-cover-floral" src="photo/A-hero.jpg" alt="">
+  <div class="case-cover"><div class="case-cover-bg" id="case-cover-bg"></div><img class="case-cover-floral" id="case-cover-floral" src="vibe coding/photo/A-hero.jpg" alt="">
     <div class="case-cover-content"><p class="case-cover-num" id="case-num"></p><h1 class="case-cover-title" id="case-title"></h1><p class="case-cover-sub" id="case-sub"></p></div>
   </div>
   <div class="case-body" id="case-body"></div>
@@ -671,35 +671,35 @@ body{background:#FAFAF9;font-family:'Noto Sans SC',sans-serif;min-height:100vh;o
 
 /* ── DATA ── */
 const PROJECTS=[
-  {id:0,zh:"IP 设计",     en:"IP Design",            year:"2023",tags:["IP","建模","表情包"],      bg:"#F0E8EE",bgImg:"photo/A-card-pink.png",num:"04",hoverDx:-65,hoverRot:-5,accent:"#C2185B",
+  {id:0,zh:"IP 设计",     en:"IP Design",            year:"2023",tags:["IP","建模","表情包"],      bg:"#F0E8EE",bgImg:"vibe coding/photo/A-card-pink.png",num:"04",hoverDx:-65,hoverRot:-5,accent:"#C2185B",
    mode:"direct"},                                        // 粉: 直接详情
-  {id:1,zh:"海外娱乐社交 APP",en:"Operational Activity Design",year:"2022-2026",tags:["视觉","AIGC","增长"],bg:"#E8F0EE",bgImg:"photo/A-card-green.png",num:"01",hoverDx:-65,hoverRot:4, accent:"#00796B",
+  {id:1,zh:"海外娱乐社交 APP",en:"Operational Activity Design",year:"2022-2026",tags:["视觉","AIGC","增长"],bg:"#E8F0EE",bgImg:"vibe coding/photo/A-card-green.png",num:"01",hoverDx:-65,hoverRot:4, accent:"#00796B",
    mode:"gallery-multi"},                                 // 绿: 瀑布流 → A → B
-  {id:2,zh:"投放推广",    en:"Video Design",         year:"2022-2026",tags:["视频","信息流","推广"],bg:"#EAE8F0",bgImg:"photo/A-card-purple.png",num:"03",hoverDx:65, hoverRot:-4,accent:"#3949AB",
+  {id:2,zh:"投放推广",    en:"Video Design",         year:"2022-2026",tags:["视频","信息流","推广"],bg:"#EAE8F0",bgImg:"vibe coding/photo/A-card-purple.png",num:"03",hoverDx:65, hoverRot:-4,accent:"#3949AB",
    mode:"direct"},                                        // 紫: 直接详情
-  {id:3,zh:"在线职业教育 APP",en:"Operational Activity Design",year:"2021-2022",tags:["视觉","增长","Web"],  bg:"#E8ECF0",bgImg:"photo/A-card-blue.png",num:"02",hoverDx:65, hoverRot:5, accent:"#5C6BC0",
+  {id:3,zh:"在线职业教育 APP",en:"Operational Activity Design",year:"2021-2022",tags:["视觉","增长","Web"],  bg:"#E8ECF0",bgImg:"vibe coding/photo/A-card-blue.png",num:"02",hoverDx:65, hoverRot:5, accent:"#5C6BC0",
    mode:"gallery-single"},                                // 蓝: 瀑布流 → 详情
 ];
 
 const GALLERIES={
   1:{items:[
-    {img:"photo/B-green/B-green-1.png"},{img:"photo/B-green/B-green-2.png"},{img:"photo/B-green/B-green-3.png"},{img:"photo/B-green/B-green-4.png"},
-    {img:"photo/B-green/B-green-5.png"},{img:"photo/B-green/B-green-6.png"},{img:"photo/B-green/B-green-7.png"},{img:"photo/B-green/B-green-8.png"},
-    {img:"photo/B-green/B-green-9.png"},{img:"photo/B-green/B-green-10.png"},{img:"photo/B-green/B-green-11.png"},{img:"photo/B-green/B-green-12.png"},
-    {img:"photo/B-green/B-green-13.png"},{img:"photo/B-green/B-green-14.png"},{img:"photo/B-green/B-green-15.png"},{img:"photo/B-green/B-green-16.png"},
-    {img:"photo/B-green/B-green-17.png"},{img:"photo/B-green/B-green-18.png"},{img:"photo/B-green/B-green-19.png"},{img:"photo/B-green/B-green-20.png"},
-    {img:"photo/B-green/B-green-21.png"},{img:"photo/B-green/B-green-22.png"},{img:"photo/B-green/B-green-23.png"},{img:"photo/B-green/B-green-24.png"},
-    {img:"photo/B-green/B-green-25.png"},{img:"photo/B-green/B-green-26.png"},{img:"photo/B-green/B-green-27.png"},{img:"photo/B-green/B-green-28.png"},
-    {img:"photo/B-green/B-green-29.png"},{img:"photo/B-green/B-green-30.png"},{img:"photo/B-green/B-green-31.png"},{img:"photo/B-green/B-green-32.png"},
-    {img:"photo/B-green/B-green-33.png"},{img:"photo/B-green/B-green-34.png"},
+    {img:"vibe coding/photo/B-green/B-green-1.png"},{img:"vibe coding/photo/B-green/B-green-2.png"},{img:"vibe coding/photo/B-green/B-green-3.png"},{img:"vibe coding/photo/B-green/B-green-4.png"},
+    {img:"vibe coding/photo/B-green/B-green-5.png"},{img:"vibe coding/photo/B-green/B-green-6.png"},{img:"vibe coding/photo/B-green/B-green-7.png"},{img:"vibe coding/photo/B-green/B-green-8.png"},
+    {img:"vibe coding/photo/B-green/B-green-9.png"},{img:"vibe coding/photo/B-green/B-green-10.png"},{img:"vibe coding/photo/B-green/B-green-11.png"},{img:"vibe coding/photo/B-green/B-green-12.png"},
+    {img:"vibe coding/photo/B-green/B-green-13.png"},{img:"vibe coding/photo/B-green/B-green-14.png"},{img:"vibe coding/photo/B-green/B-green-15.png"},{img:"vibe coding/photo/B-green/B-green-16.png"},
+    {img:"vibe coding/photo/B-green/B-green-17.png"},{img:"vibe coding/photo/B-green/B-green-18.png"},{img:"vibe coding/photo/B-green/B-green-19.png"},{img:"vibe coding/photo/B-green/B-green-20.png"},
+    {img:"vibe coding/photo/B-green/B-green-21.png"},{img:"vibe coding/photo/B-green/B-green-22.png"},{img:"vibe coding/photo/B-green/B-green-23.png"},{img:"vibe coding/photo/B-green/B-green-24.png"},
+    {img:"vibe coding/photo/B-green/B-green-25.png"},{img:"vibe coding/photo/B-green/B-green-26.png"},{img:"vibe coding/photo/B-green/B-green-27.png"},{img:"vibe coding/photo/B-green/B-green-28.png"},
+    {img:"vibe coding/photo/B-green/B-green-29.png"},{img:"vibe coding/photo/B-green/B-green-30.png"},{img:"vibe coding/photo/B-green/B-green-31.png"},{img:"vibe coding/photo/B-green/B-green-32.png"},
+    {img:"vibe coding/photo/B-green/B-green-33.png"},{img:"vibe coding/photo/B-green/B-green-34.png"},
   ]},
   3:{items:[
-    {img:"photo/B-blue/B-blue-1.png"},{img:"photo/B-blue/B-blue-2.png"},{img:"photo/B-blue/B-blue-3.jpg"},{img:"photo/B-blue/B-blue-4.png"},
-    {img:"photo/B-blue/B-blue-5.png"},{img:"photo/B-blue/B-blue-7.png"},{img:"photo/B-blue/B-blue-8.png"},{img:"photo/B-blue/B-blue-9.png"},
-    {img:"photo/B-blue/B-blue-10.png"},{img:"photo/B-blue/B-blue-11.png"},{img:"photo/B-blue/B-blue-12.jpg"},{img:"photo/B-blue/B-blue-13.png"},
-    {img:"photo/B-blue/B-blue-14.png"},{img:"photo/B-blue/B-blue-15.png"},{img:"photo/B-blue/B-blue-16.png"},{img:"photo/B-blue/B-blue-17.png"},
-    {img:"photo/B-blue/B-blue-18.png"},{img:"photo/B-blue/B-blue-19.png"},{img:"photo/B-blue/B-blue-20.png"},{img:"photo/B-blue/B-blue-21.png"},
-    {img:"photo/B-blue/B-blue-22.png"},{img:"photo/B-blue/B-blue-23.png"},
+    {img:"vibe coding/photo/B-blue/B-blue-1.png"},{img:"vibe coding/photo/B-blue/B-blue-2.png"},{img:"vibe coding/photo/B-blue/B-blue-3.jpg"},{img:"vibe coding/photo/B-blue/B-blue-4.png"},
+    {img:"vibe coding/photo/B-blue/B-blue-5.png"},{img:"vibe coding/photo/B-blue/B-blue-7.png"},{img:"vibe coding/photo/B-blue/B-blue-8.png"},{img:"vibe coding/photo/B-blue/B-blue-9.png"},
+    {img:"vibe coding/photo/B-blue/B-blue-10.png"},{img:"vibe coding/photo/B-blue/B-blue-11.png"},{img:"vibe coding/photo/B-blue/B-blue-12.jpg"},{img:"vibe coding/photo/B-blue/B-blue-13.png"},
+    {img:"vibe coding/photo/B-blue/B-blue-14.png"},{img:"vibe coding/photo/B-blue/B-blue-15.png"},{img:"vibe coding/photo/B-blue/B-blue-16.png"},{img:"vibe coding/photo/B-blue/B-blue-17.png"},
+    {img:"vibe coding/photo/B-blue/B-blue-18.png"},{img:"vibe coding/photo/B-blue/B-blue-19.png"},{img:"vibe coding/photo/B-blue/B-blue-20.png"},{img:"vibe coding/photo/B-blue/B-blue-21.png"},
+    {img:"vibe coding/photo/B-blue/B-blue-22.png"},{img:"vibe coding/photo/B-blue/B-blue-23.png"},
   ]},
 };
 
@@ -802,12 +802,12 @@ let videoIndex = 0;          // 投放推广视频索引
 
 // 投放推广视频列表
 const PROMO_VIDEOS = [
-  {src: 'video/C-purple-1.mp4', title: '视频 1'},
-  {src: 'video/C-purple-2.mp4', title: '视频 2'},
-  {src: 'video/C-purple-3.mp4', title: '视频 3'},
-  {src: 'video/C-purple-4.mp4', title: '视频 4'},
-  {src: 'video/C-purple-5.mp4', title: '视频 5'},
-  {src: 'video/C-purple-6.mp4', title: '视频 6'},
+  {src: 'vibe coding/video/C-purple-1.mp4', title: '视频 1'},
+  {src: 'vibe coding/video/C-purple-2.mp4', title: '视频 2'},
+  {src: 'vibe coding/video/C-purple-3.mp4', title: '视频 3'},
+  {src: 'vibe coding/video/C-purple-4.mp4', title: '视频 4'},
+  {src: 'vibe coding/video/C-purple-5.mp4', title: '视频 5'},
+  {src: 'vibe coding/video/C-purple-6.mp4', title: '视频 6'},
 ];
 let stack = [1,3,2,0];       // top=01绿, 02蓝, 03紫, 04粉
 let animating = false;
@@ -1158,8 +1158,8 @@ function _renderCaseContent(){
     el.appendChild(diag);
 
     // project image map
-    var PROJECT_IMGS = {0:'photo/C/C-pink.png', 3:'photo/C/C-blue.png'};
-    var GREEN_IMGS = ['photo/C/C-green.png','photo/C/C-greenA.png','photo/C/C-greenB.png'];
+    var PROJECT_IMGS = {0:'vibe coding/photo/C/C-pink.png', 3:'vibe coding/photo/C/C-blue.png'};
+    var GREEN_IMGS = ['vibe coding/photo/C/C-green.png','vibe coding/photo/C/C-greenA.png','vibe coding/photo/C/C-greenB.png'];
     var imgSrc = (p.id === 1) ? GREEN_IMGS[greenStep] : PROJECT_IMGS[p.id];
     var img = document.createElement('img');
     img.alt = 'project image';
@@ -1241,7 +1241,7 @@ function buildStack(){
     card.className = 'stack-card';
     card.id = 'c'+pid;
     card.dataset.pos = pos;
-    card.style.cssText = 'background:'+p.bg+' url('+p.bgImg+') center/cover no-repeat;transform:rotate('+L.rot+'deg) translate('+L.tx+'px,'+L.ty+'px);box-shadow:'+L.sh+';z-index:'+(10-pos)+';top:40px;left:30px;transition:transform 0.38s cubic-bezier(.22,1,.36,1),box-shadow 0.4s;';
+    card.style.cssText = 'background:'+p.bg+' url("'+p.bgImg+'") center/cover no-repeat;transform:rotate('+L.rot+'deg) translate('+L.tx+'px,'+L.ty+'px);box-shadow:'+L.sh+';z-index:'+(10-pos)+';top:40px;left:30px;transition:transform 0.38s cubic-bezier(.22,1,.36,1),box-shadow 0.4s;';
     // 使用项目背景色创建渐变遮罩，转换为 rgba 格式
     var hex = p.bg.replace('#', '');
     var r = parseInt(hex.substring(0, 2), 16);
@@ -1500,7 +1500,7 @@ document.addEventListener('keydown',function(e){
       </svg>
     </button>
     <div class="qr-img">
-      <img src="photo/wechat.png" alt="微信二维码">
+      <img src="vibe coding/photo/wechat.png" alt="微信二维码">
     </div>
     <div class="qr-label">微信扫码联系</div>
     <div class="qr-sub">Scan to connect on WeChat</div>
